@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  server:
+    build: ./server/node
+    ports:
+      - "5000:5000"
+    depends_on:
+      - "db"
+
+  # https://hub.docker.com/_/postgres/
+  db:
+    image: postgres:13-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secreto
+      #POSTGRES_USER: postgres
+      #POSTGRES_DB: postgres
+
+  # https://hub.docker.com/_/adminer
+  adminer:
+    image: adminer:4
+    restart: always
+    ports:
+      - 8080:8080
