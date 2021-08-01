@@ -18,6 +18,13 @@ Proyecto final de la asignatura Base de Datos II (Facultad de Ingeniería de la 
 
 ## Próximos pasos
 
+### General
 - [ ] Ejecutar `npm init` en `/server/node` para comenzar el proyecto de Node.js
 - [ ] Definir el tag de node en `/server/node/Dockerfile`
 - [ ] Agregar volumen a Postgres en `docker-compose.yml`
+- [ ] [Purgar componentes de Tailwind](https://tailwindcss.com/docs/guides/create-react-app#configure-tailwind-to-remove-unused-styles-in-production)
+
+### Frontend
+- [ ] Navbar/Content -> Crear componente para sección
+- [ ] Revisar estilos en Action.tsx
+- [ ] Terminar medidores de consumo
