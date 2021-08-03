@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import Sidebar from './components/sidebar/Sidebar';
+import DBDetail from './pages/DBDetail';
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       <Sidebar />
 
       <div className="w-full">
-        
+        <DBDetail />
       </div>
       
     </div>

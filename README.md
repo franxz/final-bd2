@@ -28,3 +28,4 @@ Proyecto final de la asignatura Base de Datos II (Facultad de Ingeniería de la 
 - [ ] Navbar/Content -> Crear componente para sección
 - [ ] Revisar estilos en Action.tsx
 - [ ] Terminar medidores de consumo
+- [ ] Organizar DBDetail.tsx (crear componentes)
