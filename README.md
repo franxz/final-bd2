@@ -29,3 +29,5 @@ Proyecto final de la asignatura Base de Datos II (Facultad de Ingeniería de la 
 - [ ] Revisar estilos en Action.tsx
 - [ ] Terminar medidores de consumo
 - [ ] Organizar DBDetail.tsx (crear componentes)
+- [ ] Agregar paginación a la tabla de resultados (del lado del cliente o del servidor?)
+- [ ] Organizar DBDetail.tsx (estructura y estilos)
